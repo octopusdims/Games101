@@ -1,0 +1,445 @@
+The system is: Linux - 6.8.0-85-generic - x86_64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /usr/lib/ccache/cc 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is GNU, found in "/home/octopus/Projects/Games101/pa0/build/CMakeFiles/3.22.1/CompilerIdC/a.out"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /usr/lib/ccache/c++ 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+
+The CXX compiler identification is GNU, found in "/home/octopus/Projects/Games101/pa0/build/CMakeFiles/3.22.1/CompilerIdCXX/a.out"
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /home/octopus/Projects/Games101/pa0/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_5953a/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_5953a.dir/build.make CMakeFiles/cmTC_5953a.dir/build
+gmake[1]: Entering directory '/home/octopus/Projects/Games101/pa0/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_5953a.dir/CMakeCCompilerABI.c.o
+/usr/lib/ccache/cc   -v -o CMakeFiles/cmTC_5953a.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake-3.22/Modules/CMakeCCompilerABI.c
+Reading specs from /home/octopus/miniconda3/bin/../lib/gcc/x86_64-conda-linux-gnu/9.5.0/specs
+could not find specs file conda.specs
+COLLECT_GCC=/home/octopus/miniconda3/bin/cc
+Target: x86_64-conda-linux-gnu
+Configured with: ../configure --prefix=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1666516802267/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho --with-slibdir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1666516802267/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/lib --libdir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1666516802267/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/lib --mandir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1666516802267/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/man --build=x86_64-conda-linux-gnu --host=x86_64-conda-linux-gnu --target=x86_64-conda-linux-gnu --enable-default-pie --enable-languages=c,c++,fortran,objc,obj-c++ --enable-__cxa_atexit --disable-libmudflap --enable-libgomp --disable-libssp --enable-libquadmath --enable-libquadmath-support --enable-libsanitizer --enable-lto --enable-threads=posix --enable-target-optspace --enable-plugin --enable-gold --disable-nls --disable-bootstrap --disable-multilib --enable-long-long --with-sysroot=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1666516802267/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/x86_64-conda-linux-gnu/sysroot --with-build-sysroot=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1666516802267/_build_env/x86_64-conda-linux-gnu/sysroot --with-gxx-include-dir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1666516802267/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/x86_64-conda-linux-gnu/include/c++/9.5.0 --with-pkgversion='conda-forge gcc 9.5.0-19' --with-bugurl=https://github.com/conda-forge/ctng-compilers-feedstock/issues/new/choose
+Thread model: posix
+gcc version 9.5.0 (conda-forge gcc 9.5.0-19) 
+COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-c' '-o' 'CMakeFiles/cmTC_843e4.dir/CMakeCCompilerABI.c.o' '-mtune=generic' '-march=x86-64'
+ /home/octopus/miniconda3/bin/../libexec/gcc/x86_64-conda-linux-gnu/9.5.0/cc1 -quiet -v -iprefix /home/octopus/miniconda3/bin/../lib/gcc/x86_64-conda-linux-gnu/9.5.0/ -isysroot /home/octopus/miniconda3/bin/../x86_64-conda-linux-gnu/sysroot /usr/share/cmake-3.22/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_843e4.dir/CMakeCCompilerABI.c.o -version -fdiagnostics-color=always -o /tmp/ccg615Rw.s
+GNU C17 (conda-forge gcc 9.5.0-19) version 9.5.0 (x86_64-conda-linux-gnu)
+	compiled by GNU C version 9.5.0, GMP version 6.1.0, MPFR version 3.1.4, MPC version 1.0.3, isl version isl-0.18-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring duplicate directory "/home/octopus/miniconda3/bin/../lib/gcc/../../lib/gcc/x86_64-conda-linux-gnu/9.5.0/include"
+ignoring nonexistent directory "/home/octopus/miniconda3/bin/../x86_64-conda-linux-gnu/sysroot/usr/local/include"
+ignoring duplicate directory "/home/octopus/miniconda3/bin/../lib/gcc/../../lib/gcc/x86_64-conda-linux-gnu/9.5.0/include-fixed"
+ignoring duplicate directory "/home/octopus/miniconda3/bin/../lib/gcc/../../lib/gcc/x86_64-conda-linux-gnu/9.5.0/../../../../x86_64-conda-linux-gnu/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /home/octopus/miniconda3/bin/../lib/gcc/x86_64-conda-linux-gnu/9.5.0/include
+ /home/octopus/miniconda3/bin/../lib/gcc/x86_64-conda-linux-gnu/9.5.0/include-fixed
+ /home/octopus/miniconda3/bin/../lib/gcc/x86_64-conda-linux-gnu/9.5.0/../../../../x86_64-conda-linux-gnu/include
+ /home/octopus/miniconda3/bin/../x86_64-conda-linux-gnu/sysroot/usr/include
+End of search list.
+GNU C17 (conda-forge gcc 9.5.0-19) version 9.5.0 (x86_64-conda-linux-gnu)
+	compiled by GNU C version 9.5.0, GMP version 6.1.0, MPFR version 3.1.4, MPC version 1.0.3, isl version isl-0.18-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: f3841d1727e0e47383c04411bac84d76
+COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-c' '-o' 'CMakeFiles/cmTC_843e4.dir/CMakeCCompilerABI.c.o' '-mtune=generic' '-march=x86-64'
+ /home/octopus/miniconda3/bin/../lib/gcc/x86_64-conda-linux-gnu/9.5.0/../../../../x86_64-conda-linux-gnu/bin/as -v --64 -o CMakeFiles/cmTC_843e4.dir/CMakeCCompilerABI.c.o /tmp/ccg615Rw.s
+GNU assembler version 2.40 (x86_64-conda-linux-gnu) using BFD version (Anaconda binutils) 2.40
+COMPILER_PATH=/home/octopus/miniconda3/bin/../libexec/gcc/x86_64-conda-linux-gnu/9.5.0/:/home/octopus/miniconda3/bin/../libexec/gcc/:/home/octopus/miniconda3/bin/../lib/gcc/x86_64-conda-linux-gnu/9.5.0/../../../../x86_64-conda-linux-gnu/bin/
+LIBRARY_PATH=/home/octopus/miniconda3/bin/../lib/gcc/x86_64-conda-linux-gnu/9.5.0/:/home/octopus/miniconda3/bin/../lib/gcc/:/home/octopus/miniconda3/bin/../lib/gcc/x86_64-conda-linux-gnu/9.5.0/../../../../x86_64-conda-linux-gnu/lib/../lib/:/home/octopus/miniconda3/bin/../lib/gcc/x86_64-conda-linux-gnu/9.5.0/../../../../lib/:/home/octopus/miniconda3/bin/../x86_64-conda-linux-gnu/sysroot/lib/../lib/:/home/octopus/miniconda3/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/:/home/octopus/miniconda3/bin/../lib/gcc/x86_64-conda-linux-gnu/9.5.0/../../../../x86_64-conda-linux-gnu/lib/:/home/octopus/miniconda3/bin/../lib/gcc/x86_64-conda-linux-gnu/9.5.0/../../../:/home/octopus/miniconda3/bin/../x86_64-conda-linux-gnu/sysroot/lib/:/home/octopus/miniconda3/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/
+COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-c' '-o' 'CMakeFiles/cmTC_843e4.dir/CMakeCCompilerABI.c.o' '-mtune=generic' '-march=x86-64'
+Linking C executable cmTC_5953a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5953a.dir/link.txt --verbose=1
+/usr/lib/ccache/cc  -v -rdynamic CMakeFiles/cmTC_5953a.dir/CMakeCCompilerABI.c.o -o cmTC_5953a 
+Reading specs from /home/octopus/miniconda3/bin/../lib/gcc/x86_64-conda-linux-gnu/9.5.0/specs
+could not find specs file conda.specs
+COLLECT_GCC=/home/octopus/miniconda3/bin/cc
+COLLECT_LTO_WRAPPER=/home/octopus/miniconda3/bin/../libexec/gcc/x86_64-conda-linux-gnu/9.5.0/lto-wrapper
+Target: x86_64-conda-linux-gnu
+Configured with: ../configure --prefix=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1666516802267/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho --with-slibdir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1666516802267/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/lib --libdir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1666516802267/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/lib --mandir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1666516802267/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/man --build=x86_64-conda-linux-gnu --host=x86_64-conda-linux-gnu --target=x86_64-conda-linux-gnu --enable-default-pie --enable-languages=c,c++,fortran,objc,obj-c++ --enable-__cxa_atexit --disable-libmudflap --enable-libgomp --disable-libssp --enable-libquadmath --enable-libquadmath-support --enable-libsanitizer --enable-lto --enable-threads=posix --enable-target-optspace --enable-plugin --enable-gold --disable-nls --disable-bootstrap --disable-multilib --enable-long-long --with-sysroot=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1666516802267/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/x86_64-conda-linux-gnu/sysroot --with-build-sysroot=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1666516802267/_build_env/x86_64-conda-linux-gnu/sysroot --with-gxx-include-dir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1666516802267/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/x86_64-conda-linux-gnu/include/c++/9.5.0 --with-pkgversion='conda-forge gcc 9.5.0-19' --with-bugurl=https://github.com/conda-forge/ctng-compilers-feedstock/issues/new/choose
+Thread model: posix
+gcc version 9.5.0 (conda-forge gcc 9.5.0-19) 
+COMPILER_PATH=/home/octopus/miniconda3/bin/../libexec/gcc/x86_64-conda-linux-gnu/9.5.0/:/home/octopus/miniconda3/bin/../libexec/gcc/:/home/octopus/miniconda3/bin/../lib/gcc/x86_64-conda-linux-gnu/9.5.0/../../../../x86_64-conda-linux-gnu/bin/
+LIBRARY_PATH=/home/octopus/miniconda3/bin/../lib/gcc/x86_64-conda-linux-gnu/9.5.0/:/home/octopus/miniconda3/bin/../lib/gcc/:/home/octopus/miniconda3/bin/../lib/gcc/x86_64-conda-linux-gnu/9.5.0/../../../../x86_64-conda-linux-gnu/lib/../lib/:/home/octopus/miniconda3/bin/../lib/gcc/x86_64-conda-linux-gnu/9.5.0/../../../../lib/:/home/octopus/miniconda3/bin/../x86_64-conda-linux-gnu/sysroot/lib/../lib/:/home/octopus/miniconda3/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/:/home/octopus/miniconda3/bin/../lib/gcc/x86_64-conda-linux-gnu/9.5.0/../../../../x86_64-conda-linux-gnu/lib/:/home/octopus/miniconda3/bin/../lib/gcc/x86_64-conda-linux-gnu/9.5.0/../../../:/home/octopus/miniconda3/bin/../x86_64-conda-linux-gnu/sysroot/lib/:/home/octopus/miniconda3/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_5953a' '-mtune=generic' '-march=x86-64'
+ /home/octopus/miniconda3/bin/../libexec/gcc/x86_64-conda-linux-gnu/9.5.0/collect2 -plugin /home/octopus/miniconda3/bin/../libexec/gcc/x86_64-conda-linux-gnu/9.5.0/liblto_plugin.so -plugin-opt=/home/octopus/miniconda3/bin/../libexec/gcc/x86_64-conda-linux-gnu/9.5.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccBlHoR4.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/home/octopus/miniconda3/bin/../x86_64-conda-linux-gnu/sysroot --eh-frame-hdr -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_5953a /home/octopus/miniconda3/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/Scrt1.o /home/octopus/miniconda3/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/crti.o /home/octopus/miniconda3/bin/../lib/gcc/x86_64-conda-linux-gnu/9.5.0/crtbeginS.o -L/home/octopus/miniconda3/bin/../lib/gcc/x86_64-conda-linux-gnu/9.5.0 -L/home/octopus/miniconda3/bin/../lib/gcc -L/home/octopus/miniconda3/bin/../lib/gcc/x86_64-conda-linux-gnu/9.5.0/../../../../x86_64-conda-linux-gnu/lib/../lib -L/home/octopus/miniconda3/bin/../lib/gcc/x86_64-conda-linux-gnu/9.5.0/../../../../lib -L/home/octopus/miniconda3/bin/../x86_64-conda-linux-gnu/sysroot/lib/../lib -L/home/octopus/miniconda3/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib -L/home/octopus/miniconda3/bin/../lib/gcc/x86_64-conda-linux-gnu/9.5.0/../../../../x86_64-conda-linux-gnu/lib -L/home/octopus/miniconda3/bin/../lib/gcc/x86_64-conda-linux-gnu/9.5.0/../../.. -L/home/octopus/miniconda3/bin/../x86_64-conda-linux-gnu/sysroot/lib -L/home/octopus/miniconda3/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib CMakeFiles/cmTC_5953a.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /home/octopus/miniconda3/bin/../lib/gcc/x86_64-conda-linux-gnu/9.5.0/crtendS.o /home/octopus/miniconda3/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/crtn.o -rpath /home/octopus/miniconda3/lib
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_5953a' '-mtune=generic' '-march=x86-64'
+gmake[1]: Leaving directory '/home/octopus/Projects/Games101/pa0/build/CMakeFiles/CMakeTmp'
+
+
+
+Parsed C implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/home/octopus/miniconda3/bin/../lib/gcc/x86_64-conda-linux-gnu/9.5.0/include]
+    add: [/home/octopus/miniconda3/bin/../lib/gcc/x86_64-conda-linux-gnu/9.5.0/include-fixed]
+    add: [/home/octopus/miniconda3/bin/../lib/gcc/x86_64-conda-linux-gnu/9.5.0/../../../../x86_64-conda-linux-gnu/include]
+    add: [/home/octopus/miniconda3/bin/../x86_64-conda-linux-gnu/sysroot/usr/include]
+  end of search list found
+  collapse include dir [/home/octopus/miniconda3/bin/../lib/gcc/x86_64-conda-linux-gnu/9.5.0/include] ==> [/home/octopus/miniconda3/lib/gcc/x86_64-conda-linux-gnu/9.5.0/include]
+  collapse include dir [/home/octopus/miniconda3/bin/../lib/gcc/x86_64-conda-linux-gnu/9.5.0/include-fixed] ==> [/home/octopus/miniconda3/lib/gcc/x86_64-conda-linux-gnu/9.5.0/include-fixed]
+  collapse include dir [/home/octopus/miniconda3/bin/../lib/gcc/x86_64-conda-linux-gnu/9.5.0/../../../../x86_64-conda-linux-gnu/include] ==> [/home/octopus/miniconda3/x86_64-conda-linux-gnu/include]
+  collapse include dir [/home/octopus/miniconda3/bin/../x86_64-conda-linux-gnu/sysroot/usr/include] ==> [/home/octopus/miniconda3/x86_64-conda-linux-gnu/sysroot/usr/include]
+  implicit include dirs: [/home/octopus/miniconda3/lib/gcc/x86_64-conda-linux-gnu/9.5.0/include;/home/octopus/miniconda3/lib/gcc/x86_64-conda-linux-gnu/9.5.0/include-fixed;/home/octopus/miniconda3/x86_64-conda-linux-gnu/include;/home/octopus/miniconda3/x86_64-conda-linux-gnu/sysroot/usr/include]
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/octopus/Projects/Games101/pa0/build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_5953a/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_5953a.dir/build.make CMakeFiles/cmTC_5953a.dir/build]
+  ignore line: [gmake[1]: Entering directory '/home/octopus/Projects/Games101/pa0/build/CMakeFiles/CMakeTmp']
+  ignore line: [Building C object CMakeFiles/cmTC_5953a.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/lib/ccache/cc   -v -o CMakeFiles/cmTC_5953a.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake-3.22/Modules/CMakeCCompilerABI.c]
+  ignore line: [Reading specs from /home/octopus/miniconda3/bin/../lib/gcc/x86_64-conda-linux-gnu/9.5.0/specs]
+  ignore line: [could not find specs file conda.specs]
+  ignore line: [COLLECT_GCC=/home/octopus/miniconda3/bin/cc]
+  ignore line: [Target: x86_64-conda-linux-gnu]
+  ignore line: [Configured with: ../configure --prefix=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1666516802267/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho --with-slibdir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1666516802267/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/lib --libdir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1666516802267/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/lib --mandir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1666516802267/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/man --build=x86_64-conda-linux-gnu --host=x86_64-conda-linux-gnu --target=x86_64-conda-linux-gnu --enable-default-pie --enable-languages=c c++ fortran objc obj-c++ --enable-__cxa_atexit --disable-libmudflap --enable-libgomp --disable-libssp --enable-libquadmath --enable-libquadmath-support --enable-libsanitizer --enable-lto --enable-threads=posix --enable-target-optspace --enable-plugin --enable-gold --disable-nls --disable-bootstrap --disable-multilib --enable-long-long --with-sysroot=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1666516802267/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/x86_64-conda-linux-gnu/sysroot --with-build-sysroot=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1666516802267/_build_env/x86_64-conda-linux-gnu/sysroot --with-gxx-include-dir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1666516802267/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/x86_64-conda-linux-gnu/include/c++/9.5.0 --with-pkgversion='conda-forge gcc 9.5.0-19' --with-bugurl=https://github.com/conda-forge/ctng-compilers-feedstock/issues/new/choose]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 9.5.0 (conda-forge gcc 9.5.0-19) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-c' '-o' 'CMakeFiles/cmTC_843e4.dir/CMakeCCompilerABI.c.o' '-mtune=generic' '-march=x86-64']
+  ignore line: [ /home/octopus/miniconda3/bin/../libexec/gcc/x86_64-conda-linux-gnu/9.5.0/cc1 -quiet -v -iprefix /home/octopus/miniconda3/bin/../lib/gcc/x86_64-conda-linux-gnu/9.5.0/ -isysroot /home/octopus/miniconda3/bin/../x86_64-conda-linux-gnu/sysroot /usr/share/cmake-3.22/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_843e4.dir/CMakeCCompilerABI.c.o -version -fdiagnostics-color=always -o /tmp/ccg615Rw.s]
+  ignore line: [GNU C17 (conda-forge gcc 9.5.0-19) version 9.5.0 (x86_64-conda-linux-gnu)]
+  ignore line: [	compiled by GNU C version 9.5.0  GMP version 6.1.0  MPFR version 3.1.4  MPC version 1.0.3  isl version isl-0.18-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [ignoring duplicate directory "/home/octopus/miniconda3/bin/../lib/gcc/../../lib/gcc/x86_64-conda-linux-gnu/9.5.0/include"]
+  ignore line: [ignoring nonexistent directory "/home/octopus/miniconda3/bin/../x86_64-conda-linux-gnu/sysroot/usr/local/include"]
+  ignore line: [ignoring duplicate directory "/home/octopus/miniconda3/bin/../lib/gcc/../../lib/gcc/x86_64-conda-linux-gnu/9.5.0/include-fixed"]
+  ignore line: [ignoring duplicate directory "/home/octopus/miniconda3/bin/../lib/gcc/../../lib/gcc/x86_64-conda-linux-gnu/9.5.0/../../../../x86_64-conda-linux-gnu/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /home/octopus/miniconda3/bin/../lib/gcc/x86_64-conda-linux-gnu/9.5.0/include]
+  ignore line: [ /home/octopus/miniconda3/bin/../lib/gcc/x86_64-conda-linux-gnu/9.5.0/include-fixed]
+  ignore line: [ /home/octopus/miniconda3/bin/../lib/gcc/x86_64-conda-linux-gnu/9.5.0/../../../../x86_64-conda-linux-gnu/include]
+  ignore line: [ /home/octopus/miniconda3/bin/../x86_64-conda-linux-gnu/sysroot/usr/include]
+  ignore line: [End of search list.]
+  ignore line: [GNU C17 (conda-forge gcc 9.5.0-19) version 9.5.0 (x86_64-conda-linux-gnu)]
+  ignore line: [	compiled by GNU C version 9.5.0  GMP version 6.1.0  MPFR version 3.1.4  MPC version 1.0.3  isl version isl-0.18-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [Compiler executable checksum: f3841d1727e0e47383c04411bac84d76]
+  ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-c' '-o' 'CMakeFiles/cmTC_843e4.dir/CMakeCCompilerABI.c.o' '-mtune=generic' '-march=x86-64']
+  ignore line: [ /home/octopus/miniconda3/bin/../lib/gcc/x86_64-conda-linux-gnu/9.5.0/../../../../x86_64-conda-linux-gnu/bin/as -v --64 -o CMakeFiles/cmTC_843e4.dir/CMakeCCompilerABI.c.o /tmp/ccg615Rw.s]
+  ignore line: [GNU assembler version 2.40 (x86_64-conda-linux-gnu) using BFD version (Anaconda binutils) 2.40]
+  ignore line: [COMPILER_PATH=/home/octopus/miniconda3/bin/../libexec/gcc/x86_64-conda-linux-gnu/9.5.0/:/home/octopus/miniconda3/bin/../libexec/gcc/:/home/octopus/miniconda3/bin/../lib/gcc/x86_64-conda-linux-gnu/9.5.0/../../../../x86_64-conda-linux-gnu/bin/]
+  ignore line: [LIBRARY_PATH=/home/octopus/miniconda3/bin/../lib/gcc/x86_64-conda-linux-gnu/9.5.0/:/home/octopus/miniconda3/bin/../lib/gcc/:/home/octopus/miniconda3/bin/../lib/gcc/x86_64-conda-linux-gnu/9.5.0/../../../../x86_64-conda-linux-gnu/lib/../lib/:/home/octopus/miniconda3/bin/../lib/gcc/x86_64-conda-linux-gnu/9.5.0/../../../../lib/:/home/octopus/miniconda3/bin/../x86_64-conda-linux-gnu/sysroot/lib/../lib/:/home/octopus/miniconda3/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/:/home/octopus/miniconda3/bin/../lib/gcc/x86_64-conda-linux-gnu/9.5.0/../../../../x86_64-conda-linux-gnu/lib/:/home/octopus/miniconda3/bin/../lib/gcc/x86_64-conda-linux-gnu/9.5.0/../../../:/home/octopus/miniconda3/bin/../x86_64-conda-linux-gnu/sysroot/lib/:/home/octopus/miniconda3/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-c' '-o' 'CMakeFiles/cmTC_843e4.dir/CMakeCCompilerABI.c.o' '-mtune=generic' '-march=x86-64']
+  ignore line: [Linking C executable cmTC_5953a]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5953a.dir/link.txt --verbose=1]
+  ignore line: [/usr/lib/ccache/cc  -v -rdynamic CMakeFiles/cmTC_5953a.dir/CMakeCCompilerABI.c.o -o cmTC_5953a ]
+  ignore line: [Reading specs from /home/octopus/miniconda3/bin/../lib/gcc/x86_64-conda-linux-gnu/9.5.0/specs]
+  ignore line: [could not find specs file conda.specs]
+  ignore line: [COLLECT_GCC=/home/octopus/miniconda3/bin/cc]
+  ignore line: [COLLECT_LTO_WRAPPER=/home/octopus/miniconda3/bin/../libexec/gcc/x86_64-conda-linux-gnu/9.5.0/lto-wrapper]
+  ignore line: [Target: x86_64-conda-linux-gnu]
+  ignore line: [Configured with: ../configure --prefix=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1666516802267/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho --with-slibdir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1666516802267/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/lib --libdir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1666516802267/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/lib --mandir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1666516802267/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/man --build=x86_64-conda-linux-gnu --host=x86_64-conda-linux-gnu --target=x86_64-conda-linux-gnu --enable-default-pie --enable-languages=c c++ fortran objc obj-c++ --enable-__cxa_atexit --disable-libmudflap --enable-libgomp --disable-libssp --enable-libquadmath --enable-libquadmath-support --enable-libsanitizer --enable-lto --enable-threads=posix --enable-target-optspace --enable-plugin --enable-gold --disable-nls --disable-bootstrap --disable-multilib --enable-long-long --with-sysroot=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1666516802267/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/x86_64-conda-linux-gnu/sysroot --with-build-sysroot=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1666516802267/_build_env/x86_64-conda-linux-gnu/sysroot --with-gxx-include-dir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1666516802267/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/x86_64-conda-linux-gnu/include/c++/9.5.0 --with-pkgversion='conda-forge gcc 9.5.0-19' --with-bugurl=https://github.com/conda-forge/ctng-compilers-feedstock/issues/new/choose]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 9.5.0 (conda-forge gcc 9.5.0-19) ]
+  ignore line: [COMPILER_PATH=/home/octopus/miniconda3/bin/../libexec/gcc/x86_64-conda-linux-gnu/9.5.0/:/home/octopus/miniconda3/bin/../libexec/gcc/:/home/octopus/miniconda3/bin/../lib/gcc/x86_64-conda-linux-gnu/9.5.0/../../../../x86_64-conda-linux-gnu/bin/]
+  ignore line: [LIBRARY_PATH=/home/octopus/miniconda3/bin/../lib/gcc/x86_64-conda-linux-gnu/9.5.0/:/home/octopus/miniconda3/bin/../lib/gcc/:/home/octopus/miniconda3/bin/../lib/gcc/x86_64-conda-linux-gnu/9.5.0/../../../../x86_64-conda-linux-gnu/lib/../lib/:/home/octopus/miniconda3/bin/../lib/gcc/x86_64-conda-linux-gnu/9.5.0/../../../../lib/:/home/octopus/miniconda3/bin/../x86_64-conda-linux-gnu/sysroot/lib/../lib/:/home/octopus/miniconda3/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/:/home/octopus/miniconda3/bin/../lib/gcc/x86_64-conda-linux-gnu/9.5.0/../../../../x86_64-conda-linux-gnu/lib/:/home/octopus/miniconda3/bin/../lib/gcc/x86_64-conda-linux-gnu/9.5.0/../../../:/home/octopus/miniconda3/bin/../x86_64-conda-linux-gnu/sysroot/lib/:/home/octopus/miniconda3/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_5953a' '-mtune=generic' '-march=x86-64']
+  link line: [ /home/octopus/miniconda3/bin/../libexec/gcc/x86_64-conda-linux-gnu/9.5.0/collect2 -plugin /home/octopus/miniconda3/bin/../libexec/gcc/x86_64-conda-linux-gnu/9.5.0/liblto_plugin.so -plugin-opt=/home/octopus/miniconda3/bin/../libexec/gcc/x86_64-conda-linux-gnu/9.5.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccBlHoR4.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/home/octopus/miniconda3/bin/../x86_64-conda-linux-gnu/sysroot --eh-frame-hdr -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_5953a /home/octopus/miniconda3/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/Scrt1.o /home/octopus/miniconda3/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/crti.o /home/octopus/miniconda3/bin/../lib/gcc/x86_64-conda-linux-gnu/9.5.0/crtbeginS.o -L/home/octopus/miniconda3/bin/../lib/gcc/x86_64-conda-linux-gnu/9.5.0 -L/home/octopus/miniconda3/bin/../lib/gcc -L/home/octopus/miniconda3/bin/../lib/gcc/x86_64-conda-linux-gnu/9.5.0/../../../../x86_64-conda-linux-gnu/lib/../lib -L/home/octopus/miniconda3/bin/../lib/gcc/x86_64-conda-linux-gnu/9.5.0/../../../../lib -L/home/octopus/miniconda3/bin/../x86_64-conda-linux-gnu/sysroot/lib/../lib -L/home/octopus/miniconda3/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib -L/home/octopus/miniconda3/bin/../lib/gcc/x86_64-conda-linux-gnu/9.5.0/../../../../x86_64-conda-linux-gnu/lib -L/home/octopus/miniconda3/bin/../lib/gcc/x86_64-conda-linux-gnu/9.5.0/../../.. -L/home/octopus/miniconda3/bin/../x86_64-conda-linux-gnu/sysroot/lib -L/home/octopus/miniconda3/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib CMakeFiles/cmTC_5953a.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /home/octopus/miniconda3/bin/../lib/gcc/x86_64-conda-linux-gnu/9.5.0/crtendS.o /home/octopus/miniconda3/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/crtn.o -rpath /home/octopus/miniconda3/lib]
+    arg [/home/octopus/miniconda3/bin/../libexec/gcc/x86_64-conda-linux-gnu/9.5.0/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/home/octopus/miniconda3/bin/../libexec/gcc/x86_64-conda-linux-gnu/9.5.0/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/home/octopus/miniconda3/bin/../libexec/gcc/x86_64-conda-linux-gnu/9.5.0/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccBlHoR4.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [--sysroot=/home/octopus/miniconda3/bin/../x86_64-conda-linux-gnu/sysroot] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-pie] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_5953a] ==> ignore
+    arg [/home/octopus/miniconda3/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/Scrt1.o] ==> obj [/home/octopus/miniconda3/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/Scrt1.o]
+    arg [/home/octopus/miniconda3/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/crti.o] ==> obj [/home/octopus/miniconda3/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/crti.o]
+    arg [/home/octopus/miniconda3/bin/../lib/gcc/x86_64-conda-linux-gnu/9.5.0/crtbeginS.o] ==> obj [/home/octopus/miniconda3/bin/../lib/gcc/x86_64-conda-linux-gnu/9.5.0/crtbeginS.o]
+    arg [-L/home/octopus/miniconda3/bin/../lib/gcc/x86_64-conda-linux-gnu/9.5.0] ==> dir [/home/octopus/miniconda3/bin/../lib/gcc/x86_64-conda-linux-gnu/9.5.0]
+    arg [-L/home/octopus/miniconda3/bin/../lib/gcc] ==> dir [/home/octopus/miniconda3/bin/../lib/gcc]
+    arg [-L/home/octopus/miniconda3/bin/../lib/gcc/x86_64-conda-linux-gnu/9.5.0/../../../../x86_64-conda-linux-gnu/lib/../lib] ==> dir [/home/octopus/miniconda3/bin/../lib/gcc/x86_64-conda-linux-gnu/9.5.0/../../../../x86_64-conda-linux-gnu/lib/../lib]
+    arg [-L/home/octopus/miniconda3/bin/../lib/gcc/x86_64-conda-linux-gnu/9.5.0/../../../../lib] ==> dir [/home/octopus/miniconda3/bin/../lib/gcc/x86_64-conda-linux-gnu/9.5.0/../../../../lib]
+    arg [-L/home/octopus/miniconda3/bin/../x86_64-conda-linux-gnu/sysroot/lib/../lib] ==> dir [/home/octopus/miniconda3/bin/../x86_64-conda-linux-gnu/sysroot/lib/../lib]
+    arg [-L/home/octopus/miniconda3/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib] ==> dir [/home/octopus/miniconda3/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib]
+    arg [-L/home/octopus/miniconda3/bin/../lib/gcc/x86_64-conda-linux-gnu/9.5.0/../../../../x86_64-conda-linux-gnu/lib] ==> dir [/home/octopus/miniconda3/bin/../lib/gcc/x86_64-conda-linux-gnu/9.5.0/../../../../x86_64-conda-linux-gnu/lib]
+    arg [-L/home/octopus/miniconda3/bin/../lib/gcc/x86_64-conda-linux-gnu/9.5.0/../../..] ==> dir [/home/octopus/miniconda3/bin/../lib/gcc/x86_64-conda-linux-gnu/9.5.0/../../..]
+    arg [-L/home/octopus/miniconda3/bin/../x86_64-conda-linux-gnu/sysroot/lib] ==> dir [/home/octopus/miniconda3/bin/../x86_64-conda-linux-gnu/sysroot/lib]
+    arg [-L/home/octopus/miniconda3/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib] ==> dir [/home/octopus/miniconda3/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib]
+    arg [CMakeFiles/cmTC_5953a.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [--push-state] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--pop-state] ==> ignore
+    arg [-lc] ==> lib [c]
+    arg [-lgcc] ==> lib [gcc]
+    arg [--push-state] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--pop-state] ==> ignore
+    arg [/home/octopus/miniconda3/bin/../lib/gcc/x86_64-conda-linux-gnu/9.5.0/crtendS.o] ==> obj [/home/octopus/miniconda3/bin/../lib/gcc/x86_64-conda-linux-gnu/9.5.0/crtendS.o]
+    arg [/home/octopus/miniconda3/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/crtn.o] ==> obj [/home/octopus/miniconda3/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/crtn.o]
+    arg [-rpath] ==> ignore
+    arg [/home/octopus/miniconda3/lib] ==> ignore
+  collapse obj [/home/octopus/miniconda3/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/Scrt1.o] ==> [/home/octopus/miniconda3/x86_64-conda-linux-gnu/sysroot/usr/lib/Scrt1.o]
+  collapse obj [/home/octopus/miniconda3/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/crti.o] ==> [/home/octopus/miniconda3/x86_64-conda-linux-gnu/sysroot/usr/lib/crti.o]
+  collapse obj [/home/octopus/miniconda3/bin/../lib/gcc/x86_64-conda-linux-gnu/9.5.0/crtbeginS.o] ==> [/home/octopus/miniconda3/lib/gcc/x86_64-conda-linux-gnu/9.5.0/crtbeginS.o]
+  collapse obj [/home/octopus/miniconda3/bin/../lib/gcc/x86_64-conda-linux-gnu/9.5.0/crtendS.o] ==> [/home/octopus/miniconda3/lib/gcc/x86_64-conda-linux-gnu/9.5.0/crtendS.o]
+  collapse obj [/home/octopus/miniconda3/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/crtn.o] ==> [/home/octopus/miniconda3/x86_64-conda-linux-gnu/sysroot/usr/lib/crtn.o]
+  collapse library dir [/home/octopus/miniconda3/bin/../lib/gcc/x86_64-conda-linux-gnu/9.5.0] ==> [/home/octopus/miniconda3/lib/gcc/x86_64-conda-linux-gnu/9.5.0]
+  collapse library dir [/home/octopus/miniconda3/bin/../lib/gcc] ==> [/home/octopus/miniconda3/lib/gcc]
+  collapse library dir [/home/octopus/miniconda3/bin/../lib/gcc/x86_64-conda-linux-gnu/9.5.0/../../../../x86_64-conda-linux-gnu/lib/../lib] ==> [/home/octopus/miniconda3/x86_64-conda-linux-gnu/lib]
+  collapse library dir [/home/octopus/miniconda3/bin/../lib/gcc/x86_64-conda-linux-gnu/9.5.0/../../../../lib] ==> [/home/octopus/miniconda3/lib]
+  collapse library dir [/home/octopus/miniconda3/bin/../x86_64-conda-linux-gnu/sysroot/lib/../lib] ==> [/home/octopus/miniconda3/x86_64-conda-linux-gnu/sysroot/lib]
+  collapse library dir [/home/octopus/miniconda3/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib] ==> [/home/octopus/miniconda3/x86_64-conda-linux-gnu/sysroot/usr/lib]
+  collapse library dir [/home/octopus/miniconda3/bin/../lib/gcc/x86_64-conda-linux-gnu/9.5.0/../../../../x86_64-conda-linux-gnu/lib] ==> [/home/octopus/miniconda3/x86_64-conda-linux-gnu/lib]
+  collapse library dir [/home/octopus/miniconda3/bin/../lib/gcc/x86_64-conda-linux-gnu/9.5.0/../../..] ==> [/home/octopus/miniconda3/lib]
+  collapse library dir [/home/octopus/miniconda3/bin/../x86_64-conda-linux-gnu/sysroot/lib] ==> [/home/octopus/miniconda3/x86_64-conda-linux-gnu/sysroot/lib]
+  collapse library dir [/home/octopus/miniconda3/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib] ==> [/home/octopus/miniconda3/x86_64-conda-linux-gnu/sysroot/usr/lib]
+  implicit libs: [gcc;gcc_s;c;gcc;gcc_s]
+  implicit objs: [/home/octopus/miniconda3/x86_64-conda-linux-gnu/sysroot/usr/lib/Scrt1.o;/home/octopus/miniconda3/x86_64-conda-linux-gnu/sysroot/usr/lib/crti.o;/home/octopus/miniconda3/lib/gcc/x86_64-conda-linux-gnu/9.5.0/crtbeginS.o;/home/octopus/miniconda3/lib/gcc/x86_64-conda-linux-gnu/9.5.0/crtendS.o;/home/octopus/miniconda3/x86_64-conda-linux-gnu/sysroot/usr/lib/crtn.o]
+  implicit dirs: [/home/octopus/miniconda3/lib/gcc/x86_64-conda-linux-gnu/9.5.0;/home/octopus/miniconda3/lib/gcc;/home/octopus/miniconda3/x86_64-conda-linux-gnu/lib;/home/octopus/miniconda3/lib;/home/octopus/miniconda3/x86_64-conda-linux-gnu/sysroot/lib;/home/octopus/miniconda3/x86_64-conda-linux-gnu/sysroot/usr/lib]
+  implicit fwks: []
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /home/octopus/Projects/Games101/pa0/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_8475d/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_8475d.dir/build.make CMakeFiles/cmTC_8475d.dir/build
+gmake[1]: Entering directory '/home/octopus/Projects/Games101/pa0/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_8475d.dir/CMakeCXXCompilerABI.cpp.o
+/usr/lib/ccache/c++   -v -o CMakeFiles/cmTC_8475d.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.22/Modules/CMakeCXXCompilerABI.cpp
+Reading specs from /home/octopus/miniconda3/bin/../lib/gcc/x86_64-conda-linux-gnu/9.5.0/specs
+could not find specs file conda.specs
+COLLECT_GCC=/home/octopus/miniconda3/bin/c++
+Target: x86_64-conda-linux-gnu
+Configured with: ../configure --prefix=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1666516802267/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho --with-slibdir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1666516802267/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/lib --libdir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1666516802267/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/lib --mandir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1666516802267/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/man --build=x86_64-conda-linux-gnu --host=x86_64-conda-linux-gnu --target=x86_64-conda-linux-gnu --enable-default-pie --enable-languages=c,c++,fortran,objc,obj-c++ --enable-__cxa_atexit --disable-libmudflap --enable-libgomp --disable-libssp --enable-libquadmath --enable-libquadmath-support --enable-libsanitizer --enable-lto --enable-threads=posix --enable-target-optspace --enable-plugin --enable-gold --disable-nls --disable-bootstrap --disable-multilib --enable-long-long --with-sysroot=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1666516802267/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/x86_64-conda-linux-gnu/sysroot --with-build-sysroot=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1666516802267/_build_env/x86_64-conda-linux-gnu/sysroot --with-gxx-include-dir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1666516802267/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/x86_64-conda-linux-gnu/include/c++/9.5.0 --with-pkgversion='conda-forge gcc 9.5.0-19' --with-bugurl=https://github.com/conda-forge/ctng-compilers-feedstock/issues/new/choose
+Thread model: posix
+gcc version 9.5.0 (conda-forge gcc 9.5.0-19) 
+COLLECT_GCC_OPTIONS='-v' '-c' '-o' 'CMakeFiles/cmTC_16070.dir/CMakeCXXCompilerABI.cpp.o' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ /home/octopus/miniconda3/bin/../libexec/gcc/x86_64-conda-linux-gnu/9.5.0/cc1plus -quiet -v -iprefix /home/octopus/miniconda3/bin/../lib/gcc/x86_64-conda-linux-gnu/9.5.0/ -isysroot /home/octopus/miniconda3/bin/../x86_64-conda-linux-gnu/sysroot -D_GNU_SOURCE /usr/share/cmake-3.22/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_16070.dir/CMakeCXXCompilerABI.cpp.o -version -o /tmp/ccdvTWE1.s
+GNU C++14 (conda-forge gcc 9.5.0-19) version 9.5.0 (x86_64-conda-linux-gnu)
+	compiled by GNU C version 9.5.0, GMP version 6.1.0, MPFR version 3.1.4, MPC version 1.0.3, isl version isl-0.18-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring duplicate directory "/home/octopus/miniconda3/bin/../lib/gcc/../../lib/gcc/x86_64-conda-linux-gnu/9.5.0/include"
+ignoring nonexistent directory "/home/octopus/miniconda3/bin/../x86_64-conda-linux-gnu/sysroot/usr/local/include"
+ignoring duplicate directory "/home/octopus/miniconda3/bin/../lib/gcc/../../lib/gcc/x86_64-conda-linux-gnu/9.5.0/include-fixed"
+ignoring duplicate directory "/home/octopus/miniconda3/bin/../lib/gcc/../../lib/gcc/x86_64-conda-linux-gnu/9.5.0/../../../../x86_64-conda-linux-gnu/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /home/octopus/miniconda3/bin/../lib/gcc/x86_64-conda-linux-gnu/9.5.0/include
+ /home/octopus/miniconda3/bin/../lib/gcc/x86_64-conda-linux-gnu/9.5.0/include-fixed
+ /home/octopus/miniconda3/bin/../lib/gcc/x86_64-conda-linux-gnu/9.5.0/../../../../x86_64-conda-linux-gnu/include
+ /home/octopus/miniconda3/bin/../lib/gcc/../../x86_64-conda-linux-gnu/include/c++/9.5.0
+ /home/octopus/miniconda3/bin/../lib/gcc/../../x86_64-conda-linux-gnu/include/c++/9.5.0/x86_64-conda-linux-gnu
+ /home/octopus/miniconda3/bin/../lib/gcc/../../x86_64-conda-linux-gnu/include/c++/9.5.0/backward
+ /home/octopus/miniconda3/bin/../x86_64-conda-linux-gnu/sysroot/usr/include
+End of search list.
+GNU C++14 (conda-forge gcc 9.5.0-19) version 9.5.0 (x86_64-conda-linux-gnu)
+	compiled by GNU C version 9.5.0, GMP version 6.1.0, MPFR version 3.1.4, MPC version 1.0.3, isl version isl-0.18-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: d1d2eea48f8d647e1b605e6e9463bec3
+COLLECT_GCC_OPTIONS='-v' '-c' '-o' 'CMakeFiles/cmTC_16070.dir/CMakeCXXCompilerABI.cpp.o' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ /home/octopus/miniconda3/bin/../lib/gcc/x86_64-conda-linux-gnu/9.5.0/../../../../x86_64-conda-linux-gnu/bin/as -v --64 -o CMakeFiles/cmTC_16070.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccdvTWE1.s
+GNU assembler version 2.40 (x86_64-conda-linux-gnu) using BFD version (Anaconda binutils) 2.40
+COMPILER_PATH=/home/octopus/miniconda3/bin/../libexec/gcc/x86_64-conda-linux-gnu/9.5.0/:/home/octopus/miniconda3/bin/../libexec/gcc/:/home/octopus/miniconda3/bin/../lib/gcc/x86_64-conda-linux-gnu/9.5.0/../../../../x86_64-conda-linux-gnu/bin/
+LIBRARY_PATH=/home/octopus/miniconda3/bin/../lib/gcc/x86_64-conda-linux-gnu/9.5.0/:/home/octopus/miniconda3/bin/../lib/gcc/:/home/octopus/miniconda3/bin/../lib/gcc/x86_64-conda-linux-gnu/9.5.0/../../../../x86_64-conda-linux-gnu/lib/../lib/:/home/octopus/miniconda3/bin/../lib/gcc/x86_64-conda-linux-gnu/9.5.0/../../../../lib/:/home/octopus/miniconda3/bin/../x86_64-conda-linux-gnu/sysroot/lib/../lib/:/home/octopus/miniconda3/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/:/home/octopus/miniconda3/bin/../lib/gcc/x86_64-conda-linux-gnu/9.5.0/../../../../x86_64-conda-linux-gnu/lib/:/home/octopus/miniconda3/bin/../lib/gcc/x86_64-conda-linux-gnu/9.5.0/../../../:/home/octopus/miniconda3/bin/../x86_64-conda-linux-gnu/sysroot/lib/:/home/octopus/miniconda3/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-c' '-o' 'CMakeFiles/cmTC_16070.dir/CMakeCXXCompilerABI.cpp.o' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+Linking CXX executable cmTC_8475d
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8475d.dir/link.txt --verbose=1
+/usr/lib/ccache/c++  -v -rdynamic CMakeFiles/cmTC_8475d.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_8475d 
+Reading specs from /home/octopus/miniconda3/bin/../lib/gcc/x86_64-conda-linux-gnu/9.5.0/specs
+could not find specs file conda.specs
+COLLECT_GCC=/home/octopus/miniconda3/bin/c++
+COLLECT_LTO_WRAPPER=/home/octopus/miniconda3/bin/../libexec/gcc/x86_64-conda-linux-gnu/9.5.0/lto-wrapper
+Target: x86_64-conda-linux-gnu
+Configured with: ../configure --prefix=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1666516802267/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho --with-slibdir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1666516802267/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/lib --libdir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1666516802267/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/lib --mandir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1666516802267/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/man --build=x86_64-conda-linux-gnu --host=x86_64-conda-linux-gnu --target=x86_64-conda-linux-gnu --enable-default-pie --enable-languages=c,c++,fortran,objc,obj-c++ --enable-__cxa_atexit --disable-libmudflap --enable-libgomp --disable-libssp --enable-libquadmath --enable-libquadmath-support --enable-libsanitizer --enable-lto --enable-threads=posix --enable-target-optspace --enable-plugin --enable-gold --disable-nls --disable-bootstrap --disable-multilib --enable-long-long --with-sysroot=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1666516802267/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/x86_64-conda-linux-gnu/sysroot --with-build-sysroot=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1666516802267/_build_env/x86_64-conda-linux-gnu/sysroot --with-gxx-include-dir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1666516802267/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/x86_64-conda-linux-gnu/include/c++/9.5.0 --with-pkgversion='conda-forge gcc 9.5.0-19' --with-bugurl=https://github.com/conda-forge/ctng-compilers-feedstock/issues/new/choose
+Thread model: posix
+gcc version 9.5.0 (conda-forge gcc 9.5.0-19) 
+COMPILER_PATH=/home/octopus/miniconda3/bin/../libexec/gcc/x86_64-conda-linux-gnu/9.5.0/:/home/octopus/miniconda3/bin/../libexec/gcc/:/home/octopus/miniconda3/bin/../lib/gcc/x86_64-conda-linux-gnu/9.5.0/../../../../x86_64-conda-linux-gnu/bin/
+LIBRARY_PATH=/home/octopus/miniconda3/bin/../lib/gcc/x86_64-conda-linux-gnu/9.5.0/:/home/octopus/miniconda3/bin/../lib/gcc/:/home/octopus/miniconda3/bin/../lib/gcc/x86_64-conda-linux-gnu/9.5.0/../../../../x86_64-conda-linux-gnu/lib/../lib/:/home/octopus/miniconda3/bin/../lib/gcc/x86_64-conda-linux-gnu/9.5.0/../../../../lib/:/home/octopus/miniconda3/bin/../x86_64-conda-linux-gnu/sysroot/lib/../lib/:/home/octopus/miniconda3/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/:/home/octopus/miniconda3/bin/../lib/gcc/x86_64-conda-linux-gnu/9.5.0/../../../../x86_64-conda-linux-gnu/lib/:/home/octopus/miniconda3/bin/../lib/gcc/x86_64-conda-linux-gnu/9.5.0/../../../:/home/octopus/miniconda3/bin/../x86_64-conda-linux-gnu/sysroot/lib/:/home/octopus/miniconda3/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_8475d' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ /home/octopus/miniconda3/bin/../libexec/gcc/x86_64-conda-linux-gnu/9.5.0/collect2 -plugin /home/octopus/miniconda3/bin/../libexec/gcc/x86_64-conda-linux-gnu/9.5.0/liblto_plugin.so -plugin-opt=/home/octopus/miniconda3/bin/../libexec/gcc/x86_64-conda-linux-gnu/9.5.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccNXMOFp.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/home/octopus/miniconda3/bin/../x86_64-conda-linux-gnu/sysroot --eh-frame-hdr -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_8475d /home/octopus/miniconda3/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/Scrt1.o /home/octopus/miniconda3/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/crti.o /home/octopus/miniconda3/bin/../lib/gcc/x86_64-conda-linux-gnu/9.5.0/crtbeginS.o -L/home/octopus/miniconda3/bin/../lib/gcc/x86_64-conda-linux-gnu/9.5.0 -L/home/octopus/miniconda3/bin/../lib/gcc -L/home/octopus/miniconda3/bin/../lib/gcc/x86_64-conda-linux-gnu/9.5.0/../../../../x86_64-conda-linux-gnu/lib/../lib -L/home/octopus/miniconda3/bin/../lib/gcc/x86_64-conda-linux-gnu/9.5.0/../../../../lib -L/home/octopus/miniconda3/bin/../x86_64-conda-linux-gnu/sysroot/lib/../lib -L/home/octopus/miniconda3/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib -L/home/octopus/miniconda3/bin/../lib/gcc/x86_64-conda-linux-gnu/9.5.0/../../../../x86_64-conda-linux-gnu/lib -L/home/octopus/miniconda3/bin/../lib/gcc/x86_64-conda-linux-gnu/9.5.0/../../.. -L/home/octopus/miniconda3/bin/../x86_64-conda-linux-gnu/sysroot/lib -L/home/octopus/miniconda3/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib CMakeFiles/cmTC_8475d.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /home/octopus/miniconda3/bin/../lib/gcc/x86_64-conda-linux-gnu/9.5.0/crtendS.o /home/octopus/miniconda3/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/crtn.o -rpath /home/octopus/miniconda3/lib
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_8475d' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+gmake[1]: Leaving directory '/home/octopus/Projects/Games101/pa0/build/CMakeFiles/CMakeTmp'
+
+
+
+Parsed CXX implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/home/octopus/miniconda3/bin/../lib/gcc/x86_64-conda-linux-gnu/9.5.0/include]
+    add: [/home/octopus/miniconda3/bin/../lib/gcc/x86_64-conda-linux-gnu/9.5.0/include-fixed]
+    add: [/home/octopus/miniconda3/bin/../lib/gcc/x86_64-conda-linux-gnu/9.5.0/../../../../x86_64-conda-linux-gnu/include]
+    add: [/home/octopus/miniconda3/bin/../lib/gcc/../../x86_64-conda-linux-gnu/include/c++/9.5.0]
+    add: [/home/octopus/miniconda3/bin/../lib/gcc/../../x86_64-conda-linux-gnu/include/c++/9.5.0/x86_64-conda-linux-gnu]
+    add: [/home/octopus/miniconda3/bin/../lib/gcc/../../x86_64-conda-linux-gnu/include/c++/9.5.0/backward]
+    add: [/home/octopus/miniconda3/bin/../x86_64-conda-linux-gnu/sysroot/usr/include]
+  end of search list found
+  collapse include dir [/home/octopus/miniconda3/bin/../lib/gcc/x86_64-conda-linux-gnu/9.5.0/include] ==> [/home/octopus/miniconda3/lib/gcc/x86_64-conda-linux-gnu/9.5.0/include]
+  collapse include dir [/home/octopus/miniconda3/bin/../lib/gcc/x86_64-conda-linux-gnu/9.5.0/include-fixed] ==> [/home/octopus/miniconda3/lib/gcc/x86_64-conda-linux-gnu/9.5.0/include-fixed]
+  collapse include dir [/home/octopus/miniconda3/bin/../lib/gcc/x86_64-conda-linux-gnu/9.5.0/../../../../x86_64-conda-linux-gnu/include] ==> [/home/octopus/miniconda3/x86_64-conda-linux-gnu/include]
+  collapse include dir [/home/octopus/miniconda3/bin/../lib/gcc/../../x86_64-conda-linux-gnu/include/c++/9.5.0] ==> [/home/octopus/miniconda3/x86_64-conda-linux-gnu/include/c++/9.5.0]
+  collapse include dir [/home/octopus/miniconda3/bin/../lib/gcc/../../x86_64-conda-linux-gnu/include/c++/9.5.0/x86_64-conda-linux-gnu] ==> [/home/octopus/miniconda3/x86_64-conda-linux-gnu/include/c++/9.5.0/x86_64-conda-linux-gnu]
+  collapse include dir [/home/octopus/miniconda3/bin/../lib/gcc/../../x86_64-conda-linux-gnu/include/c++/9.5.0/backward] ==> [/home/octopus/miniconda3/x86_64-conda-linux-gnu/include/c++/9.5.0/backward]
+  collapse include dir [/home/octopus/miniconda3/bin/../x86_64-conda-linux-gnu/sysroot/usr/include] ==> [/home/octopus/miniconda3/x86_64-conda-linux-gnu/sysroot/usr/include]
+  implicit include dirs: [/home/octopus/miniconda3/lib/gcc/x86_64-conda-linux-gnu/9.5.0/include;/home/octopus/miniconda3/lib/gcc/x86_64-conda-linux-gnu/9.5.0/include-fixed;/home/octopus/miniconda3/x86_64-conda-linux-gnu/include;/home/octopus/miniconda3/x86_64-conda-linux-gnu/include/c++/9.5.0;/home/octopus/miniconda3/x86_64-conda-linux-gnu/include/c++/9.5.0/x86_64-conda-linux-gnu;/home/octopus/miniconda3/x86_64-conda-linux-gnu/include/c++/9.5.0/backward;/home/octopus/miniconda3/x86_64-conda-linux-gnu/sysroot/usr/include]
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/octopus/Projects/Games101/pa0/build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_8475d/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_8475d.dir/build.make CMakeFiles/cmTC_8475d.dir/build]
+  ignore line: [gmake[1]: Entering directory '/home/octopus/Projects/Games101/pa0/build/CMakeFiles/CMakeTmp']
+  ignore line: [Building CXX object CMakeFiles/cmTC_8475d.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/usr/lib/ccache/c++   -v -o CMakeFiles/cmTC_8475d.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.22/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Reading specs from /home/octopus/miniconda3/bin/../lib/gcc/x86_64-conda-linux-gnu/9.5.0/specs]
+  ignore line: [could not find specs file conda.specs]
+  ignore line: [COLLECT_GCC=/home/octopus/miniconda3/bin/c++]
+  ignore line: [Target: x86_64-conda-linux-gnu]
+  ignore line: [Configured with: ../configure --prefix=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1666516802267/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho --with-slibdir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1666516802267/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/lib --libdir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1666516802267/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/lib --mandir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1666516802267/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/man --build=x86_64-conda-linux-gnu --host=x86_64-conda-linux-gnu --target=x86_64-conda-linux-gnu --enable-default-pie --enable-languages=c c++ fortran objc obj-c++ --enable-__cxa_atexit --disable-libmudflap --enable-libgomp --disable-libssp --enable-libquadmath --enable-libquadmath-support --enable-libsanitizer --enable-lto --enable-threads=posix --enable-target-optspace --enable-plugin --enable-gold --disable-nls --disable-bootstrap --disable-multilib --enable-long-long --with-sysroot=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1666516802267/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/x86_64-conda-linux-gnu/sysroot --with-build-sysroot=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1666516802267/_build_env/x86_64-conda-linux-gnu/sysroot --with-gxx-include-dir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1666516802267/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/x86_64-conda-linux-gnu/include/c++/9.5.0 --with-pkgversion='conda-forge gcc 9.5.0-19' --with-bugurl=https://github.com/conda-forge/ctng-compilers-feedstock/issues/new/choose]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 9.5.0 (conda-forge gcc 9.5.0-19) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-c' '-o' 'CMakeFiles/cmTC_16070.dir/CMakeCXXCompilerABI.cpp.o' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  ignore line: [ /home/octopus/miniconda3/bin/../libexec/gcc/x86_64-conda-linux-gnu/9.5.0/cc1plus -quiet -v -iprefix /home/octopus/miniconda3/bin/../lib/gcc/x86_64-conda-linux-gnu/9.5.0/ -isysroot /home/octopus/miniconda3/bin/../x86_64-conda-linux-gnu/sysroot -D_GNU_SOURCE /usr/share/cmake-3.22/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_16070.dir/CMakeCXXCompilerABI.cpp.o -version -o /tmp/ccdvTWE1.s]
+  ignore line: [GNU C++14 (conda-forge gcc 9.5.0-19) version 9.5.0 (x86_64-conda-linux-gnu)]
+  ignore line: [	compiled by GNU C version 9.5.0  GMP version 6.1.0  MPFR version 3.1.4  MPC version 1.0.3  isl version isl-0.18-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [ignoring duplicate directory "/home/octopus/miniconda3/bin/../lib/gcc/../../lib/gcc/x86_64-conda-linux-gnu/9.5.0/include"]
+  ignore line: [ignoring nonexistent directory "/home/octopus/miniconda3/bin/../x86_64-conda-linux-gnu/sysroot/usr/local/include"]
+  ignore line: [ignoring duplicate directory "/home/octopus/miniconda3/bin/../lib/gcc/../../lib/gcc/x86_64-conda-linux-gnu/9.5.0/include-fixed"]
+  ignore line: [ignoring duplicate directory "/home/octopus/miniconda3/bin/../lib/gcc/../../lib/gcc/x86_64-conda-linux-gnu/9.5.0/../../../../x86_64-conda-linux-gnu/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /home/octopus/miniconda3/bin/../lib/gcc/x86_64-conda-linux-gnu/9.5.0/include]
+  ignore line: [ /home/octopus/miniconda3/bin/../lib/gcc/x86_64-conda-linux-gnu/9.5.0/include-fixed]
+  ignore line: [ /home/octopus/miniconda3/bin/../lib/gcc/x86_64-conda-linux-gnu/9.5.0/../../../../x86_64-conda-linux-gnu/include]
+  ignore line: [ /home/octopus/miniconda3/bin/../lib/gcc/../../x86_64-conda-linux-gnu/include/c++/9.5.0]
+  ignore line: [ /home/octopus/miniconda3/bin/../lib/gcc/../../x86_64-conda-linux-gnu/include/c++/9.5.0/x86_64-conda-linux-gnu]
+  ignore line: [ /home/octopus/miniconda3/bin/../lib/gcc/../../x86_64-conda-linux-gnu/include/c++/9.5.0/backward]
+  ignore line: [ /home/octopus/miniconda3/bin/../x86_64-conda-linux-gnu/sysroot/usr/include]
+  ignore line: [End of search list.]
+  ignore line: [GNU C++14 (conda-forge gcc 9.5.0-19) version 9.5.0 (x86_64-conda-linux-gnu)]
+  ignore line: [	compiled by GNU C version 9.5.0  GMP version 6.1.0  MPFR version 3.1.4  MPC version 1.0.3  isl version isl-0.18-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [Compiler executable checksum: d1d2eea48f8d647e1b605e6e9463bec3]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-c' '-o' 'CMakeFiles/cmTC_16070.dir/CMakeCXXCompilerABI.cpp.o' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  ignore line: [ /home/octopus/miniconda3/bin/../lib/gcc/x86_64-conda-linux-gnu/9.5.0/../../../../x86_64-conda-linux-gnu/bin/as -v --64 -o CMakeFiles/cmTC_16070.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccdvTWE1.s]
+  ignore line: [GNU assembler version 2.40 (x86_64-conda-linux-gnu) using BFD version (Anaconda binutils) 2.40]
+  ignore line: [COMPILER_PATH=/home/octopus/miniconda3/bin/../libexec/gcc/x86_64-conda-linux-gnu/9.5.0/:/home/octopus/miniconda3/bin/../libexec/gcc/:/home/octopus/miniconda3/bin/../lib/gcc/x86_64-conda-linux-gnu/9.5.0/../../../../x86_64-conda-linux-gnu/bin/]
+  ignore line: [LIBRARY_PATH=/home/octopus/miniconda3/bin/../lib/gcc/x86_64-conda-linux-gnu/9.5.0/:/home/octopus/miniconda3/bin/../lib/gcc/:/home/octopus/miniconda3/bin/../lib/gcc/x86_64-conda-linux-gnu/9.5.0/../../../../x86_64-conda-linux-gnu/lib/../lib/:/home/octopus/miniconda3/bin/../lib/gcc/x86_64-conda-linux-gnu/9.5.0/../../../../lib/:/home/octopus/miniconda3/bin/../x86_64-conda-linux-gnu/sysroot/lib/../lib/:/home/octopus/miniconda3/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/:/home/octopus/miniconda3/bin/../lib/gcc/x86_64-conda-linux-gnu/9.5.0/../../../../x86_64-conda-linux-gnu/lib/:/home/octopus/miniconda3/bin/../lib/gcc/x86_64-conda-linux-gnu/9.5.0/../../../:/home/octopus/miniconda3/bin/../x86_64-conda-linux-gnu/sysroot/lib/:/home/octopus/miniconda3/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-c' '-o' 'CMakeFiles/cmTC_16070.dir/CMakeCXXCompilerABI.cpp.o' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  ignore line: [Linking CXX executable cmTC_8475d]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8475d.dir/link.txt --verbose=1]
+  ignore line: [/usr/lib/ccache/c++  -v -rdynamic CMakeFiles/cmTC_8475d.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_8475d ]
+  ignore line: [Reading specs from /home/octopus/miniconda3/bin/../lib/gcc/x86_64-conda-linux-gnu/9.5.0/specs]
+  ignore line: [could not find specs file conda.specs]
+  ignore line: [COLLECT_GCC=/home/octopus/miniconda3/bin/c++]
+  ignore line: [COLLECT_LTO_WRAPPER=/home/octopus/miniconda3/bin/../libexec/gcc/x86_64-conda-linux-gnu/9.5.0/lto-wrapper]
+  ignore line: [Target: x86_64-conda-linux-gnu]
+  ignore line: [Configured with: ../configure --prefix=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1666516802267/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho --with-slibdir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1666516802267/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/lib --libdir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1666516802267/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/lib --mandir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1666516802267/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/man --build=x86_64-conda-linux-gnu --host=x86_64-conda-linux-gnu --target=x86_64-conda-linux-gnu --enable-default-pie --enable-languages=c c++ fortran objc obj-c++ --enable-__cxa_atexit --disable-libmudflap --enable-libgomp --disable-libssp --enable-libquadmath --enable-libquadmath-support --enable-libsanitizer --enable-lto --enable-threads=posix --enable-target-optspace --enable-plugin --enable-gold --disable-nls --disable-bootstrap --disable-multilib --enable-long-long --with-sysroot=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1666516802267/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/x86_64-conda-linux-gnu/sysroot --with-build-sysroot=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1666516802267/_build_env/x86_64-conda-linux-gnu/sysroot --with-gxx-include-dir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1666516802267/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/x86_64-conda-linux-gnu/include/c++/9.5.0 --with-pkgversion='conda-forge gcc 9.5.0-19' --with-bugurl=https://github.com/conda-forge/ctng-compilers-feedstock/issues/new/choose]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 9.5.0 (conda-forge gcc 9.5.0-19) ]
+  ignore line: [COMPILER_PATH=/home/octopus/miniconda3/bin/../libexec/gcc/x86_64-conda-linux-gnu/9.5.0/:/home/octopus/miniconda3/bin/../libexec/gcc/:/home/octopus/miniconda3/bin/../lib/gcc/x86_64-conda-linux-gnu/9.5.0/../../../../x86_64-conda-linux-gnu/bin/]
+  ignore line: [LIBRARY_PATH=/home/octopus/miniconda3/bin/../lib/gcc/x86_64-conda-linux-gnu/9.5.0/:/home/octopus/miniconda3/bin/../lib/gcc/:/home/octopus/miniconda3/bin/../lib/gcc/x86_64-conda-linux-gnu/9.5.0/../../../../x86_64-conda-linux-gnu/lib/../lib/:/home/octopus/miniconda3/bin/../lib/gcc/x86_64-conda-linux-gnu/9.5.0/../../../../lib/:/home/octopus/miniconda3/bin/../x86_64-conda-linux-gnu/sysroot/lib/../lib/:/home/octopus/miniconda3/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/:/home/octopus/miniconda3/bin/../lib/gcc/x86_64-conda-linux-gnu/9.5.0/../../../../x86_64-conda-linux-gnu/lib/:/home/octopus/miniconda3/bin/../lib/gcc/x86_64-conda-linux-gnu/9.5.0/../../../:/home/octopus/miniconda3/bin/../x86_64-conda-linux-gnu/sysroot/lib/:/home/octopus/miniconda3/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_8475d' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  link line: [ /home/octopus/miniconda3/bin/../libexec/gcc/x86_64-conda-linux-gnu/9.5.0/collect2 -plugin /home/octopus/miniconda3/bin/../libexec/gcc/x86_64-conda-linux-gnu/9.5.0/liblto_plugin.so -plugin-opt=/home/octopus/miniconda3/bin/../libexec/gcc/x86_64-conda-linux-gnu/9.5.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccNXMOFp.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/home/octopus/miniconda3/bin/../x86_64-conda-linux-gnu/sysroot --eh-frame-hdr -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_8475d /home/octopus/miniconda3/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/Scrt1.o /home/octopus/miniconda3/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/crti.o /home/octopus/miniconda3/bin/../lib/gcc/x86_64-conda-linux-gnu/9.5.0/crtbeginS.o -L/home/octopus/miniconda3/bin/../lib/gcc/x86_64-conda-linux-gnu/9.5.0 -L/home/octopus/miniconda3/bin/../lib/gcc -L/home/octopus/miniconda3/bin/../lib/gcc/x86_64-conda-linux-gnu/9.5.0/../../../../x86_64-conda-linux-gnu/lib/../lib -L/home/octopus/miniconda3/bin/../lib/gcc/x86_64-conda-linux-gnu/9.5.0/../../../../lib -L/home/octopus/miniconda3/bin/../x86_64-conda-linux-gnu/sysroot/lib/../lib -L/home/octopus/miniconda3/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib -L/home/octopus/miniconda3/bin/../lib/gcc/x86_64-conda-linux-gnu/9.5.0/../../../../x86_64-conda-linux-gnu/lib -L/home/octopus/miniconda3/bin/../lib/gcc/x86_64-conda-linux-gnu/9.5.0/../../.. -L/home/octopus/miniconda3/bin/../x86_64-conda-linux-gnu/sysroot/lib -L/home/octopus/miniconda3/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib CMakeFiles/cmTC_8475d.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /home/octopus/miniconda3/bin/../lib/gcc/x86_64-conda-linux-gnu/9.5.0/crtendS.o /home/octopus/miniconda3/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/crtn.o -rpath /home/octopus/miniconda3/lib]
+    arg [/home/octopus/miniconda3/bin/../libexec/gcc/x86_64-conda-linux-gnu/9.5.0/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/home/octopus/miniconda3/bin/../libexec/gcc/x86_64-conda-linux-gnu/9.5.0/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/home/octopus/miniconda3/bin/../libexec/gcc/x86_64-conda-linux-gnu/9.5.0/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccNXMOFp.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [--sysroot=/home/octopus/miniconda3/bin/../x86_64-conda-linux-gnu/sysroot] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-pie] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_8475d] ==> ignore
+    arg [/home/octopus/miniconda3/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/Scrt1.o] ==> obj [/home/octopus/miniconda3/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/Scrt1.o]
+    arg [/home/octopus/miniconda3/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/crti.o] ==> obj [/home/octopus/miniconda3/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/crti.o]
+    arg [/home/octopus/miniconda3/bin/../lib/gcc/x86_64-conda-linux-gnu/9.5.0/crtbeginS.o] ==> obj [/home/octopus/miniconda3/bin/../lib/gcc/x86_64-conda-linux-gnu/9.5.0/crtbeginS.o]
+    arg [-L/home/octopus/miniconda3/bin/../lib/gcc/x86_64-conda-linux-gnu/9.5.0] ==> dir [/home/octopus/miniconda3/bin/../lib/gcc/x86_64-conda-linux-gnu/9.5.0]
+    arg [-L/home/octopus/miniconda3/bin/../lib/gcc] ==> dir [/home/octopus/miniconda3/bin/../lib/gcc]
+    arg [-L/home/octopus/miniconda3/bin/../lib/gcc/x86_64-conda-linux-gnu/9.5.0/../../../../x86_64-conda-linux-gnu/lib/../lib] ==> dir [/home/octopus/miniconda3/bin/../lib/gcc/x86_64-conda-linux-gnu/9.5.0/../../../../x86_64-conda-linux-gnu/lib/../lib]
+    arg [-L/home/octopus/miniconda3/bin/../lib/gcc/x86_64-conda-linux-gnu/9.5.0/../../../../lib] ==> dir [/home/octopus/miniconda3/bin/../lib/gcc/x86_64-conda-linux-gnu/9.5.0/../../../../lib]
+    arg [-L/home/octopus/miniconda3/bin/../x86_64-conda-linux-gnu/sysroot/lib/../lib] ==> dir [/home/octopus/miniconda3/bin/../x86_64-conda-linux-gnu/sysroot/lib/../lib]
+    arg [-L/home/octopus/miniconda3/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib] ==> dir [/home/octopus/miniconda3/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib]
+    arg [-L/home/octopus/miniconda3/bin/../lib/gcc/x86_64-conda-linux-gnu/9.5.0/../../../../x86_64-conda-linux-gnu/lib] ==> dir [/home/octopus/miniconda3/bin/../lib/gcc/x86_64-conda-linux-gnu/9.5.0/../../../../x86_64-conda-linux-gnu/lib]
+    arg [-L/home/octopus/miniconda3/bin/../lib/gcc/x86_64-conda-linux-gnu/9.5.0/../../..] ==> dir [/home/octopus/miniconda3/bin/../lib/gcc/x86_64-conda-linux-gnu/9.5.0/../../..]
+    arg [-L/home/octopus/miniconda3/bin/../x86_64-conda-linux-gnu/sysroot/lib] ==> dir [/home/octopus/miniconda3/bin/../x86_64-conda-linux-gnu/sysroot/lib]
+    arg [-L/home/octopus/miniconda3/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib] ==> dir [/home/octopus/miniconda3/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib]
+    arg [CMakeFiles/cmTC_8475d.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [-lstdc++] ==> lib [stdc++]
+    arg [-lm] ==> lib [m]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lc] ==> lib [c]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [/home/octopus/miniconda3/bin/../lib/gcc/x86_64-conda-linux-gnu/9.5.0/crtendS.o] ==> obj [/home/octopus/miniconda3/bin/../lib/gcc/x86_64-conda-linux-gnu/9.5.0/crtendS.o]
+    arg [/home/octopus/miniconda3/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/crtn.o] ==> obj [/home/octopus/miniconda3/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/crtn.o]
+    arg [-rpath] ==> ignore
+    arg [/home/octopus/miniconda3/lib] ==> ignore
+  collapse obj [/home/octopus/miniconda3/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/Scrt1.o] ==> [/home/octopus/miniconda3/x86_64-conda-linux-gnu/sysroot/usr/lib/Scrt1.o]
+  collapse obj [/home/octopus/miniconda3/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/crti.o] ==> [/home/octopus/miniconda3/x86_64-conda-linux-gnu/sysroot/usr/lib/crti.o]
+  collapse obj [/home/octopus/miniconda3/bin/../lib/gcc/x86_64-conda-linux-gnu/9.5.0/crtbeginS.o] ==> [/home/octopus/miniconda3/lib/gcc/x86_64-conda-linux-gnu/9.5.0/crtbeginS.o]
+  collapse obj [/home/octopus/miniconda3/bin/../lib/gcc/x86_64-conda-linux-gnu/9.5.0/crtendS.o] ==> [/home/octopus/miniconda3/lib/gcc/x86_64-conda-linux-gnu/9.5.0/crtendS.o]
+  collapse obj [/home/octopus/miniconda3/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/crtn.o] ==> [/home/octopus/miniconda3/x86_64-conda-linux-gnu/sysroot/usr/lib/crtn.o]
+  collapse library dir [/home/octopus/miniconda3/bin/../lib/gcc/x86_64-conda-linux-gnu/9.5.0] ==> [/home/octopus/miniconda3/lib/gcc/x86_64-conda-linux-gnu/9.5.0]
+  collapse library dir [/home/octopus/miniconda3/bin/../lib/gcc] ==> [/home/octopus/miniconda3/lib/gcc]
+  collapse library dir [/home/octopus/miniconda3/bin/../lib/gcc/x86_64-conda-linux-gnu/9.5.0/../../../../x86_64-conda-linux-gnu/lib/../lib] ==> [/home/octopus/miniconda3/x86_64-conda-linux-gnu/lib]
+  collapse library dir [/home/octopus/miniconda3/bin/../lib/gcc/x86_64-conda-linux-gnu/9.5.0/../../../../lib] ==> [/home/octopus/miniconda3/lib]
+  collapse library dir [/home/octopus/miniconda3/bin/../x86_64-conda-linux-gnu/sysroot/lib/../lib] ==> [/home/octopus/miniconda3/x86_64-conda-linux-gnu/sysroot/lib]
+  collapse library dir [/home/octopus/miniconda3/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib] ==> [/home/octopus/miniconda3/x86_64-conda-linux-gnu/sysroot/usr/lib]
+  collapse library dir [/home/octopus/miniconda3/bin/../lib/gcc/x86_64-conda-linux-gnu/9.5.0/../../../../x86_64-conda-linux-gnu/lib] ==> [/home/octopus/miniconda3/x86_64-conda-linux-gnu/lib]
+  collapse library dir [/home/octopus/miniconda3/bin/../lib/gcc/x86_64-conda-linux-gnu/9.5.0/../../..] ==> [/home/octopus/miniconda3/lib]
+  collapse library dir [/home/octopus/miniconda3/bin/../x86_64-conda-linux-gnu/sysroot/lib] ==> [/home/octopus/miniconda3/x86_64-conda-linux-gnu/sysroot/lib]
+  collapse library dir [/home/octopus/miniconda3/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib] ==> [/home/octopus/miniconda3/x86_64-conda-linux-gnu/sysroot/usr/lib]
+  implicit libs: [stdc++;m;gcc_s;gcc;c;gcc_s;gcc]
+  implicit objs: [/home/octopus/miniconda3/x86_64-conda-linux-gnu/sysroot/usr/lib/Scrt1.o;/home/octopus/miniconda3/x86_64-conda-linux-gnu/sysroot/usr/lib/crti.o;/home/octopus/miniconda3/lib/gcc/x86_64-conda-linux-gnu/9.5.0/crtbeginS.o;/home/octopus/miniconda3/lib/gcc/x86_64-conda-linux-gnu/9.5.0/crtendS.o;/home/octopus/miniconda3/x86_64-conda-linux-gnu/sysroot/usr/lib/crtn.o]
+  implicit dirs: [/home/octopus/miniconda3/lib/gcc/x86_64-conda-linux-gnu/9.5.0;/home/octopus/miniconda3/lib/gcc;/home/octopus/miniconda3/x86_64-conda-linux-gnu/lib;/home/octopus/miniconda3/lib;/home/octopus/miniconda3/x86_64-conda-linux-gnu/sysroot/lib;/home/octopus/miniconda3/x86_64-conda-linux-gnu/sysroot/usr/lib]
+  implicit fwks: []
+
+
