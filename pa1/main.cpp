@@ -22,11 +22,14 @@ Eigen::Matrix4f get_view_matrix(Eigen::Vector3f eye_pos)
 Eigen::Matrix4f get_model_matrix(float rotation_angle)
 {
     Eigen::Matrix4f model = Eigen::Matrix4f::Identity();
-
     // TODO: Implement this function
     // Create the model matrix for rotating the triangle around the Z axis.
     // Then return it.
-
+    float rad = rotation_angle / 180.0 * MY_PI;
+    model << std::cos(rad), -std::sin(rad), 0.0, 0.0,
+        std::sin(rad), std::cos(rad), 0.0, 0.0,
+        0.0, 0.0, 1.0, 0.0,
+        0.0, 0.0, 0.0, 1.0;
     return model;
 }
 
@@ -34,13 +37,33 @@ Eigen::Matrix4f get_projection_matrix(float eye_fov, float aspect_ratio,
                                       float zNear, float zFar)
 {
     // Students will implement this function
-
     Eigen::Matrix4f projection = Eigen::Matrix4f::Identity();
-
+    Eigen::Matrix4f orthographic = Eigen::Matrix4f::Identity();
+    Eigen::Matrix4f translation = Eigen::Matrix4f::Identity();
     // TODO: Implement this function
     // Create the projection matrix for the given parameters.
     // Then return it.
 
+    //aspect_ration = Width / Height = (r - l) / (t - b)
+    /*float t = std::fabs(zNear) * std::tan(eye_fov / 2.0 / 180.0 * MY_PI);
+    float b = -t;
+    float r = t * aspect_ratio;
+    float l = -r;*/
+    float Height = 2.0 * std::fabs(zNear) * std::tan(eye_fov / 2.0 / 180.0 * MY_PI);
+    float Width = Height * aspect_ratio;
+    orthographic << 2.0 / Width, 0.0, 0.0, 0.0,
+                0.0, 2.0 / Height, 0.0, 0.0,
+                0.0, 0.0, 2.0/(zNear - zFar), 0.0,
+                0.0, 0.0, 0.0, 1.0;
+    translation << 1.0, 0.0, 0.0, 0.0,
+                0.0, 1.0, 0.0, 0.0,
+                0.0, 0.0, 1.0, -(zNear + zFar)/2,
+                0.0, 0.0, 0.0, 1.0;
+    projection << zNear, 0.0, 0.0, 0.0,
+                0.0, zNear, 0.0, 0.0,
+                0.0, 0.0, zNear + zFar, -zNear * zFar,
+                0.0, 0.0, 1.0, 0.0;
+    projection = orthographic * translation * projection;
     return projection;
 }
 
