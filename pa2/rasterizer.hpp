@@ -9,9 +9,15 @@
 #include "global.hpp"
 #include "Triangle.hpp"
 using namespace Eigen;
-
+#define SSAA_N 100
 namespace rst
 {
+    struct ssaa_sample{
+        float z;
+        Eigen::Vector3f color;
+    };
+    //ssaa sample
+
     enum class Buffers
     {
         Color = 1,
@@ -93,6 +99,9 @@ namespace rst
         std::vector<Eigen::Vector3f> frame_buf;
 
         std::vector<float> depth_buf;
+
+        std::vector<ssaa_sample> samples_buf;
+
         int get_index(int x, int y);
 
         int width, height;
