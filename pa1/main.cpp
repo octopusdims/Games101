@@ -53,21 +53,22 @@ Eigen::Matrix4f get_projection_matrix(float eye_fov, float aspect_ratio,
     float Width = Height * aspect_ratio;
     orthographic << 2.0 / Width, 0.0, 0.0, 0.0,
                 0.0, 2.0 / Height, 0.0, 0.0,
-                0.0, 0.0, 2.0/(zNear - zFar), 0.0,
+                0.0, 0.0, 2.0/(zFar - zNear), 0.0,
                 0.0, 0.0, 0.0, 1.0;
     translation << 1.0, 0.0, 0.0, 0.0,
                 0.0, 1.0, 0.0, 0.0,
                 0.0, 0.0, 1.0, (zNear + zFar)/2,
                 0.0, 0.0, 0.0, 1.0;
-    projection << zNear, 0.0, 0.0, 0.0,
-                0.0, zNear, 0.0, 0.0,
-                0.0, 0.0, zNear + zFar, -zNear * zFar,
+    projection << -zNear, 0.0, 0.0, 0.0,
+                0.0, -zNear, 0.0, 0.0,
+                0.0, 0.0, -zNear - zFar, -zNear * zFar,
                 0.0, 0.0, 1.0, 0.0;
     projection = orthographic * translation * projection;
     return projection;
 }
 
 Eigen::Matrix4f get_rotation(Vector3f axis, float angle) {
+    axis.normalize();
     Eigen::Matrix3f I = Eigen::Matrix3f::Identity();
     Eigen::Matrix3f N = Eigen::Matrix3f::Identity();
     float rad = angle / 180.0 * MY_PI;
