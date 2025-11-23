@@ -38,15 +38,15 @@ Eigen::Matrix4f get_projection_matrix(float eye_fov, float aspect_ratio, float z
     float Width = Height * aspect_ratio;
     orthographic << 2.0 / Width, 0.0, 0.0, 0.0,
                 0.0, 2.0 / Height, 0.0, 0.0,
-                0.0, 0.0, 2.0/(zNear - zFar), 0.0,
+                0.0, 0.0, 2.0/(zFar - zNear), 0.0,
                 0.0, 0.0, 0.0, 1.0;
     translation << 1.0, 0.0, 0.0, 0.0,
                 0.0, 1.0, 0.0, 0.0,
-                0.0, 0.0, 1.0, -(zNear + zFar)/2,
+                0.0, 0.0, 1.0, (zNear + zFar)/2,
                 0.0, 0.0, 0.0, 1.0;
-    projection << zNear, 0.0, 0.0, 0.0,
-                0.0, zNear, 0.0, 0.0,
-                0.0, 0.0, zNear + zFar, -zNear * zFar,
+    projection << -zNear, 0.0, 0.0, 0.0,
+                0.0, -zNear, 0.0, 0.0,
+                0.0, 0.0, -zNear - zFar, -zNear * zFar,
                 0.0, 0.0, 1.0, 0.0;
     projection = orthographic * translation * projection;
     return projection;
