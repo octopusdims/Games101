@@ -31,10 +31,6 @@ Eigen::Matrix4f get_model_matrix(float rotation_angle)
 Eigen::Matrix4f get_projection_matrix(float eye_fov, float aspect_ratio, float zNear, float zFar)
 {
     // TODO: Copy-paste your implementation from the previous assignment.
-<<<<<<< HEAD
-    Eigen::Matrix4f projection;
-
-=======
     Eigen::Matrix4f projection = Eigen::Matrix4f::Identity();
     Eigen::Matrix4f orthographic = Eigen::Matrix4f::Identity();
     Eigen::Matrix4f translation = Eigen::Matrix4f::Identity();
@@ -53,7 +49,6 @@ Eigen::Matrix4f get_projection_matrix(float eye_fov, float aspect_ratio, float z
                 0.0, 0.0, -zNear - zFar, -zNear * zFar,
                 0.0, 0.0, 1.0, 0.0;
     projection = orthographic * translation * projection;
->>>>>>> 51ef57d (Complete the basic experiment requirements.)
     return projection;
 }
 

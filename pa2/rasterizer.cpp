@@ -115,9 +115,6 @@ void rst::rasterizer::rasterize_triangle(const Triangle& t) {
     //float w_reciprocal = 1.0/(alpha / v[0].w() + beta / v[1].w() + gamma / v[2].w());
     //float z_interpolated = alpha * v[0].z() / v[0].w() + beta * v[1].z() / v[1].w() + gamma * v[2].z() / v[2].w();
     //z_interpolated *= w_reciprocal;
-<<<<<<< HEAD
-    
-=======
     for(int x = x_min; x <= x_max; x++){
         for(int y = y_min; y <= y_max; y++){
             int pass = 0;
@@ -154,7 +151,6 @@ void rst::rasterizer::rasterize_triangle(const Triangle& t) {
             set_pixel(Eigen::Vector3f(x, y, 1), sample_color);
         }
     }
->>>>>>> 20f117d (Added ssaa in rasterizer.cpp)
     // TODO : set the current pixel (use the set_pixel function) to the color of the triangle (use getColor function) if it should be painted.
 }
 
